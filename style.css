@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+}
+
+body{
+    background-image: linear-gradient(to top, #9be15d 0%, #00e3ae 100%);
+ background-blend-mode: multiply,multiply;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+
+}
+.board{
+    background: rgb(2, 2, 56);
+ background-blend-mode: normal, lighten, soft-light;
+    height: 81.5%;
+    width: 95%;
+    border-radius: 25px;
+    position: relative;
+}
+.ball{
+    height: 25px;
+    width: 25px;
+    background: ghostwhite;
+ background-blend-mode: multiply,multiply;
+    border-radius: 50%;
+    position: fixed;
+    top: 45vh;
+    left: 50vw;
+
+}
+
+
+.leftPaddle{
+    height: 80px;
+    width: 12px;
+    background-color:ghostwhite;   
+    border-radius: 10px;
+    position: fixed;
+    left: 4%;
+    top: 70px;
+}
+
+.rightPaddle{
+    height: 80px;
+    width: 12px;
+    background-color:ghostwhite; 
+    border-radius: 10px;
+    position: fixed;
+    right: 4%;
+    top: 70px;
+
+}
+
+.scorecard{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.left,.right{
+    display: flex;
+    margin-top: 3px;
+}
+
+.l1,.r1{
+    height: 20px;
+    width: 20px;
+    background-color: rgba(18, 241, 18, 0.918);
+    border-radius: 50%;
+    margin: 5px;
+}
